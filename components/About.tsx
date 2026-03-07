@@ -29,7 +29,7 @@ export default function About({ language }: Props) {
                   who is passionate about ethical finance, sustainable economic growth, 
                   and integrity driven financial systems. I strongly believe that financial 
                   institutions should not only focus on profit, but also on social justice 
-                  and long-term sustainability.
+                  and long term sustainability.
                 </>
               : <>
                   Saya adalah <span className="text-pink-500 font-medium">mahasiswi Perbankan Syariah</span> 
