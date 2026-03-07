@@ -46,7 +46,7 @@ export default function Hero({ language }: Props) {
             className="text-lg text-gray-600 mb-8 max-w-xl"
           >
             {language === "EN"
-              ? "Islamic Banking student passionate about ethical finance, sustainable growth, and integrity-driven financial systems."
+              ? "Islamic Banking student passionate about ethical finance, sustainable growth, and integrity driven financial systems."
               : "Mahasiswi Perbankan Syariah yang tertarik pada keuangan etis, pertumbuhan berkelanjutan, dan sistem keuangan berbasis integritas."}
           </motion.p>
 
