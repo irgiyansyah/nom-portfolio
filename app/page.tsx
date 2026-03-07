@@ -7,6 +7,8 @@ import Hero from "@/components/Hero"
 import About from "@/components/About"
 import Skills from "@/components/Skills"
 import Footer from "@/components/Footer"
+import Achievement from "@/components/Achievement"
+import Experience from "@/components/Experience"
 
 export default function Home() {
   const [language, setLanguage] = useState("EN")
@@ -26,7 +28,9 @@ export default function Home() {
         >
           <Hero language={language} />
           <About language={language} />
+          <Experience language={language} />
           <Skills language={language} />
+          <Achievement language={language} />
           <Footer language={language} />
         </motion.div>
       </AnimatePresence>
