@@ -10,7 +10,14 @@ export default function Navbar({ setLanguage }: NavbarProps) {
   const [active, setActive] = useState("Home")
   const [lang, setLang] = useState("EN")
 
-  const menu = ["Home", "About", "Experience", "Skills", "Achievement"]
+  const menu = [
+    "Home",
+    "About",
+    "Experience",
+    "Skills",
+    "Achievement",
+    "Certificate", // tambahan menu sertifikat
+  ]
 
   const handleClick = (item: string) => {
     setActive(item)
@@ -25,7 +32,6 @@ export default function Navbar({ setLanguage }: NavbarProps) {
 
   return (
     <nav className="fixed top-0 w-full z-50 backdrop-blur-lg bg-white/50 border-b border-pink-100">
-
       <div className="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between">
 
         {/* Logo */}
@@ -80,7 +86,6 @@ export default function Navbar({ setLanguage }: NavbarProps) {
         </div>
 
       </div>
-
     </nav>
   )
 }
