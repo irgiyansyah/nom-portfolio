@@ -13,7 +13,7 @@ export default function Experience({ language }: Props) {
   const experienceEN = {
     title: "Finance Intern",
     role: "PT PLN (Persero) UP3 Palopo",
-    date: "Jan 2024 – Feb 2024",
+    date: "Jan 2026 – Feb 2026",
     desc: "During my internship at PLN (UP3 Palopo), I supported financial operations and reporting processes.",
     achievements: [
       "Managed petty cash records and financial documentation",
@@ -26,7 +26,7 @@ export default function Experience({ language }: Props) {
   const experienceID = {
     title: "Magang Keuangan",
     role: "PT PLN (Persero) UP3 Palopo",
-    date: "Jan 2024 – Feb 2024",
+    date: "Jan 2026 – Feb 2026",
     desc: "Selama magang di PLN (UP3 Palopo), saya mendukung proses operasional dan pelaporan keuangan.",
     achievements: [
       "Membantu pengelolaan kas kecil dan dokumentasi keuangan",
